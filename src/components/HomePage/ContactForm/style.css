@@ -1,0 +1,24 @@
+Form{
+    padding:60px;
+}
+
+.row{
+    margin-bottom: 8px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:540px){
+    .contact-text{
+        padding-top: 20px;
+    }
+
+    .contact-input{
+        margin-bottom: 5px;
+    }
+}
