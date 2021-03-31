@@ -1,0 +1,115 @@
+.carousel-section{
+    padding:30px 0;
+    background-color: rgb(228, 225, 225);
+    overflow: hidden;
+    width: 99.80vw;
+}
+
+.carousel-sec{
+    /* width: 75%; */
+}
+
+.carousel-frame{
+    position: absolute;
+    z-index: 10;
+    left: 35%;
+    /* top: 12px; */
+    margin:33px auto;
+    margin-bottom: 0px;
+    height: 90%;
+    width: 30%;
+    transform: translateX(-50%);
+}
+
+.carousel{
+    overflow: hidden;
+    /* float: right; */
+    /* margin: 0; */
+    left: 76%;
+    transform: translateX(-55%);
+    position: relative;
+    padding: 0;
+    transition: all 0.5s ease-in;
+}
+
+.carousel-items{
+    width: 75%;
+}
+
+.carousel-info{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding: 4rem 0.5rem;
+    left: 5%;
+    transform: translateX(-50%);
+}
+
+.carousel-info h4{
+    font-size: 2.2rem;
+    /* word-spacing: 3px; */
+}
+
+.carousel-info p{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.customDots{
+   /* position: relative;
+   left: -40%;  */
+}
+
+.custom-dot-list{
+    /* padding: 10px; */
+    width: 12rem;
+    height: 42%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .carousel-section{
+        padding:30px 0;
+        overflow: hidden;
+        /* width: 99.5vw; */
+    }
+
+    .carousel-info{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        /* padding: 0 10rem; */
+        left: 50%;
+        margin: 0.5rem 1rem;
+        transform: translateX(-50%);
+    }
+
+    .carousel{
+        overflow: hidden;
+        /* float: right; */
+        /* margin: 0; */
+        left: 65%;
+        transform: translateX(-50%);
+        position: relative;
+        padding: 0;
+        transition: all 0.5s ease-in;
+    }
+
+    .carousel-frame{
+        display: none;
+    }
+
+    .custom-dot-list{
+        /* padding: 10px; */
+        width: 32rem;
+        height: 25px;
+    }
+}
+
+@media  only screen and (max-width:540px){
+    .carousel-info{
+        left:0%
+    }
+}

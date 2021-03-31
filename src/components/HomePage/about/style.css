@@ -1,0 +1,18 @@
+.about-para{
+    font-size:18px;
+     padding:10px 50px
+}
+
+.about-container{
+    padding:50px 20px
+}
+
+@media (max-width:540px){
+    .about-para{
+        font-size: 15px;
+    }
+
+    .about-container{
+        padding: 21px 7px;
+    }
+}
