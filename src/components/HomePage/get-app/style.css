@@ -1,0 +1,44 @@
+.app-container{
+    background-color: rgb(240, 238, 238);
+    padding-top:70px;
+    margin-top: -8px;
+}
+
+.app-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test-img{
+    width: 25%;
+    margin:30px auto;
+    margin-bottom: 0px;
+}
+
+.get-button{
+    font-size:18px;
+    padding:10px 20px; 
+    margin-right:2px;
+    border-radius:30px
+}
+
+.appicon{
+    font-size: 20px;
+    color:white;
+    margin-right: 5px;
+    margin-top:2px;
+}
+
+@media(max-width:540px){
+    .test-img{
+        width: 45%;
+    }
+
+    .app-container{
+        padding-top:30px;
+    }
+    .get-button{
+        padding: 8px 13px;
+    }
+}
