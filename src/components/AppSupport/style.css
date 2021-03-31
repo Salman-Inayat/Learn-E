@@ -1,0 +1,14 @@
+Form{
+    padding:60px;
+}
+
+.row{
+    margin-bottom: 8px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
