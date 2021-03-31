@@ -1,0 +1,16 @@
+.app-container{
+    background-color: rgb(220, 255, 224);
+    padding-top:70px;
+}
+
+.app-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test-img{
+    width: 25%;
+    margin:30px auto;
+    margin-bottom: 0px;
+}

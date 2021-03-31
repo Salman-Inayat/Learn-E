@@ -1,0 +1,28 @@
+.dropdown{
+   padding-right: 1rem ;
+   color:white
+}
+
+Nav.Item{
+    padding-right: 1rem ;
+    color:white
+
+}
+
+Navbar Nav{
+    padding-right: 1rem;
+    color:white;
+}
+
+Navbar{
+    background-color: rgb(14, 129, 14);
+}
+
+Nav Link{
+    color: white;
+}
+
+
+
+
+
