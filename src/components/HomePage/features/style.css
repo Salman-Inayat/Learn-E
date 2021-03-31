@@ -1,0 +1,36 @@
+.feature-container{
+    background-color: rgb(236, 230, 230);
+    padding: 50px 10px;
+}
+
+
+.feature-image{
+    height:95vh;
+}
+
+.left_feature{
+    text-align:right;
+    margin-bottom:40px
+}
+
+.right_feature{
+    text-align:left;
+    margin-bottom:40px
+}
+
+
+.feature-content p{
+    margin-bottom: 2px;
+}
+
+@media  (max-width:540px){
+    .feature-image{
+        height:50vh;
+    }
+    .left_feature h3{
+        font-size: 1.5rem;
+    }
+    .right_feature h3{
+        font-size: 1.5rem;
+    }
+}
