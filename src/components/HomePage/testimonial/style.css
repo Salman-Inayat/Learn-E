@@ -1,0 +1,17 @@
+.testimonial-container{
+    padding:60px 2px;
+}
+
+.test-card{
+    display:flex; 
+    flex-direction:column;
+     justify-content:center;
+     border: none;
+
+}
+
+@media (max-width:540px){
+    .test-card{
+        margin-bottom: 10px;
+    }
+}
