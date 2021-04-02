@@ -1,0 +1,34 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+} 
+
+.title span{
+    border-bottom: 2px solid green;
+    width: 15%;
+}
+
+.container h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 16px;
+    margin-bottom: 20px;
+} 
+
+.terms-container{
+    padding: 50px;
+    text-align:left
+}
+
+
+@media (max-width:540px){
+    .terms-container{
+        padding: 25px;
+    }
+}
